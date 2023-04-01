@@ -19,12 +19,11 @@ body {
 }
 .video-bg{
   position: absolute;
+  right :0;
+  bottom :0;
   z-index: -1;
-  top: 50%;
-  left:50%;
-  transform:translate(-50%,-50%);
   min-width: 100%;
-  min-height: 100%S;
+  min-height: 100%;
 }
 
 body::before {
